@@ -1,4 +1,4 @@
-# Portfolio Redesign
+# 💼 Portfolio Redesign 💼
 ### August 2023 Edition
 
 ## Description
