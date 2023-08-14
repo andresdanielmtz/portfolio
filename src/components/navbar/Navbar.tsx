@@ -8,10 +8,11 @@ export default function Navbar() {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
   const currentPath = window.location.pathname;
-  console.log(currentPath);
+  console.log("Current path: " + currentPath);
   
+
+  let contentTopSpace = "20";
   
-  let contentTopSpace = isMobileMenuOpen ? "20" : "0"; // Adjust the value as needed
   if (currentPath == "/") { 
     contentTopSpace = '0'; 
   }
