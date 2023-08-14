@@ -1,11 +1,9 @@
-{/*
+/*
 
 const ProyectGrid = () => { 
     return ( 
-        <>
         
-        </>
     )
 }
 
-*/}
+*/
