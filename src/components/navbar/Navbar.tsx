@@ -1,24 +1,28 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [contentTopSpace, setContentTopSpace] = useState("0");
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
-  const currentPath = window.location.pathname;
-  console.log("Current path: " + currentPath);
-  
 
-  let contentTopSpace = "20";
-  
-  if (currentPath == "/") { 
-    contentTopSpace = '0'; 
-  }
-  else { 
-    contentTopSpace = isMobileMenuOpen ? "20" : "0"; 
-  }
+  const currentPath = window.location.pathname;
+
+  useEffect(() => {
+    if (currentPath !== "/") {
+      if (isMobileMenuOpen) {
+        setContentTopSpace("20");
+      } else {
+        setContentTopSpace("0");
+      }
+    } else {
+      setContentTopSpace("0");
+    }
+  }, [currentPath, isMobileMenuOpen]);
+
 
   return (
     <div>
