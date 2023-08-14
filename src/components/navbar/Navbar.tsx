@@ -15,6 +15,9 @@ export default function Navbar() {
   if (currentPath == "/") { 
     contentTopSpace = '0'; 
   }
+  else { 
+    contentTopSpace = isMobileMenuOpen ? "20" : "0"; 
+  }
 
   return (
     <div>
@@ -78,7 +81,7 @@ export default function Navbar() {
 
 
     </nav>
-    <div className = {"py-"+contentTopSpace}> </div>
+    <div className = {`py-${contentTopSpace}`}> </div>
     </div>
   );
 }

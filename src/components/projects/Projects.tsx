@@ -9,7 +9,7 @@ export default function Projects() {
           <h2 className="mb-4 text-4xl tracking-tight font-black text-gray-900 dark:text-white">
             Projects{" "}
           </h2>
-          <h5 className="py-5"> Here is a list of some of my projects :) </h5>
+          <h5 className="py-5"> Some of the works I've done... <br/> (´ ∀ ` *)</h5>
 
           <div className = "flex flex-col space-y-4">
             <Project
