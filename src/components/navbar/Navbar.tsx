@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="bg-black dark:bg-blackground-900 flex items-center fixed w-full z-20 top-0 left-0">
+      <nav className="bg-black dark:bg-black bg-opacity-100 dark:bg-opacity-100 flex items-center fixed w-full z-20 top-0 left-0">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           {/* ... */}
           <div className="flex md:order-2">
@@ -49,7 +49,7 @@ export default function Navbar() {
             } w-full md:flex md:w-auto md:order-1`}
             id="navbar-sticky"
           >
-            <ul className="bg-black md:order-2 opacity-100 md:bg-opacity-100 md:bg-black md:bg-slate-900 flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-black dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul style={{ backgroundColor: "rgba(0, 0, 0, 1)" }} className="bg-black md:order-2 opacity-100 md:bg-opacity-100 md:bg-black md:bg-slate-900 flex flex-col p-4 md:p-0 mt-4 font-medium bg-opacity-100 dark:bg-opacity-100 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-black dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <Link to="/" onClick={toggleMobileMenu}>
                   Home

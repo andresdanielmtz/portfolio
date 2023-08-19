@@ -8,3 +8,5 @@ This is a redesign of my portfolio website. Powered by React, Tailwind, Typescri
 1. Clone the repository
 2. Run `npm install`
 3. Run `npm run dev`
+
+You can now view the website at [this link](https://prototipo-en-desarrollo.netlify.app/)
