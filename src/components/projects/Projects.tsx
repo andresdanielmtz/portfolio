@@ -1,7 +1,10 @@
 // @ts-ignore
 import Project from "./ProjTemplate";
+import { useTranslation } from "react-i18next";
+import Resume from "../../assets/resume.pdf";
 
 export default function Projects() {
+  const { t } = useTranslation();
   return (
     <section className="bg-black dark:bg-gray-900 pt-12">
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
@@ -16,11 +19,27 @@ export default function Projects() {
 
           <div className="flex flex-col space-y-4">
             <Project
-              title="Project 1"
-              date="August 2022 - September 2023"
+              title="Video Streaming App"
+              date="April 2023 - June 2023"
               url="https://github.com/andresdanielmtz/Projectile-Kinematic-Simulation-Engine.git"
             >
-              This is the description of the project.
+              <ul className="ps-10 list-disc">
+                <li>
+                  {" "}
+                  Developed an app that stores and displays episode information
+                  about various T.V. and Movie shows in a text-based format.{" "}
+                </li>
+                <li>
+                  {" "}
+                  Developed mostly in C++, used Typescript and NodeJS for
+                  development and testing purposes.{" "}
+                </li>
+                <li>
+                  {" "}
+                  Deployed the app as an open-source project by Github and
+                  collaborated in teams using Git.{" "}
+                </li>
+              </ul>
             </Project>
             <Project
               title="Project 1"
@@ -37,6 +56,18 @@ export default function Projects() {
               This is the description of the project.
             </Project>
           </div>
+          <p className="py-10">
+            {t("ProjectFinal")}
+            <a target="_blank" href="https://github.com/andresdanielmtz">
+              github
+            </a>{" "}
+            {t("ProjectFinal2")}{" "}
+            <a target="_blank" href={Resume}>
+              {" "}
+              resume
+            </a>
+            .{" "}
+          </p>
         </div>
       </div>
     </section>

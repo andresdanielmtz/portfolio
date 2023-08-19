@@ -12,6 +12,10 @@ const resources = {
       Currently:
         "I am currently open to work and looking for an internship. If you are interested in working with me, please contact me at",
       Email: "this email",
+      Title: "Nice to meet you, I am",
+      Grade: "Sophomore CS Student",
+      ProjectFinal: "To see the rest of my projects, visit my ",
+      ProjectFinal2: "page or check out my ",
     },
   },
   es: {
@@ -24,7 +28,10 @@ const resources = {
       Currently:
         "Ahora mismo estoy abierto a trabajar y estoy buscado una internship. Así que si estás interesado en trabajar conmigo, por favor contáctame en",
       Email: "este correo",
-      // ... Other translations ...
+      Title: "Mucho gusto, mi nombre es",
+      Grade: "Estudiante de segundo año en Ingeniería en Tecnologías Computacionales",
+      ProjectFinal: "Para ver el resto de mis proyectos, visita mi página de ",
+      ProjectFinal2: "ó checa mí",
     },
   },
 };
