@@ -1,0 +1,10 @@
+{
+    "title": {
+        "español": {
+            "hello": "¡Mucho gusto!"
+        },
+        "english": { 
+            "hello": "Nice to meet you!"
+        }
+    }
+}
