@@ -10,16 +10,16 @@ export default function Projects() {
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div className="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
           <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">
-            Projects{" "}
+            {t("Project_Title")}{" "}
           </h2>
           <h5 className="py-5">
             {" "}
-            Some of the works I've done... <br /> (´ ∀ ` *)
+            {t("Project_Subtitle")}<br /> (´ ∀ ` *)
           </h5>
 
           <div className="flex flex-col space-y-4">
             <Project
-              title="Video Streaming App"
+              title= {t("ProjectTop_Title")}
               date="April 2023 - June 2023"
               url="https://github.com/andresdanielmtz/Projectile-Kinematic-Simulation-Engine.git"
             >
