@@ -15,11 +15,7 @@ export default function Projects() {
           </h2>
           <h5 className="py-5">
             {" "}
-<<<<<<< HEAD
             {t("Project_Subtitle")}<br /> (´ ∀ ` *)
-=======
-            {t("Project_Subtitle")} <br /> (´ ∀ ` *)
->>>>>>> e74e0e6 (fixed navbar left movement when going to /projects)
           </h5>
 
           <div className="flex flex-col space-y-4">

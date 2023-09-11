@@ -16,15 +16,10 @@ const resources = {
       Grade: "Sophomore CS Student",
       ProjectFinal: "To see the rest of my projects, visit my ",
       ProjectFinal2: "page or check out my ",
-<<<<<<< HEAD
       Project_Title: "Projects", 
       Project_Subtitle: "Some of the works I've done...",
       ProjectTop_Title: "Video Streaming App", 
 
-=======
-      Project_Title: "Projects",
-      Project_Subtitle: "Some of the works I've done...",
->>>>>>> e74e0e6 (fixed navbar left movement when going to /projects)
     },
   },
   es: {
@@ -42,15 +37,8 @@ const resources = {
         "Estudiante de segundo año en Ingeniería en Tecnologías Computacionales",
       ProjectFinal: "Para ver el resto de mis proyectos, visita mi página de ",
       ProjectFinal2: "ó checa mí",
-<<<<<<< HEAD
-      ProjectTop_Title: "Servicio de Vídeo Streaming",
-      Project_Title: "Projectos",
-      Project_Subtitle: "Algunos de los trabajos en los que he trabajado...", 
-      ProjectTop_Desc: ":)", 
-=======
       Project_Title: "Proyectos",
       Project_Subtitle: "Algunos de los trabajos que he hecho...",
->>>>>>> e74e0e6 (fixed navbar left movement when going to /projects)
     },
   },
 };
