@@ -6,6 +6,8 @@ import './i18n';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
+    <div className = "overflow-y-scroll no-scrollbar"> 
     <App />
+    </div> 
   </React.StrictMode>,
 )

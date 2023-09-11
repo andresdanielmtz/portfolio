@@ -2,11 +2,12 @@
 import Project from "./ProjTemplate";
 import { useTranslation } from "react-i18next";
 import Resume from "../../assets/resume.pdf";
-
+import "./Projects.css"
 export default function Projects() {
   const { t } = useTranslation();
   return (
-    <section className="bg-black dark:bg-gray-900 pt-12">
+    <section className="bg-black dark:bg-gray-900 pt-12 no-scrollbar overflow-y-hidden">
+      <div className ="remove-scrollbar"> 
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div className="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
           <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">
@@ -14,7 +15,11 @@ export default function Projects() {
           </h2>
           <h5 className="py-5">
             {" "}
+<<<<<<< HEAD
             {t("Project_Subtitle")}<br /> (´ ∀ ` *)
+=======
+            {t("Project_Subtitle")} <br /> (´ ∀ ` *)
+>>>>>>> e74e0e6 (fixed navbar left movement when going to /projects)
           </h5>
 
           <div className="flex flex-col space-y-4">
@@ -69,6 +74,7 @@ export default function Projects() {
             .{" "}
           </p>
         </div>
+      </div>
       </div>
     </section>
   );

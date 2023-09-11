@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+    https://github.com/tailwindlabs/tailwindcss/discussions/2394
+    https://github.com/tailwindlabs/tailwindcss/pull/5732
+*/
+@layer utilities {
+  @variants responsive {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+  }
+}
+
+
 :root {
   font-family: 'Jetbrains Mono', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

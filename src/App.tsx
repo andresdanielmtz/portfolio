@@ -31,7 +31,7 @@ function App() {
           <Route 
           path = "/projects"
           element = { 
-            <div> 
+            <div className = "overflow-y-scroll no-scrollbar"> 
               <Projects /> 
               </div> 
           }

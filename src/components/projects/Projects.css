@@ -1,0 +1,17 @@
+/* remove scrollbar for classname "remove-scrollbar" */
+.remove-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.remove-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    border-bottom: 1px solid #ccc;
+    overflow-y: auto;
+    overflow-x:hidden;
+    height: 96vh;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
