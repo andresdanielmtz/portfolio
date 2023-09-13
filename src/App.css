@@ -1,0 +1,5 @@
+/* when selecting text */
+::selection {
+  background: #ffffff; /* WebKit/Blink Browsers */
+  color: black; 
+}

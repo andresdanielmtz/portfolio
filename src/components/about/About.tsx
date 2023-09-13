@@ -18,8 +18,7 @@ const About = () => {
             {t("Location")}
           </p>
           <p className="mb-4 font-medium">
-            {t("Currently")}
-            {" "}
+            {t("Currently")}{" "}
             <a
               href="mailto:autummata@gmail.com
             "

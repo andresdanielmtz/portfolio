@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+
+
 const Project = (props) => {
+  const { t } = useTranslation(); 
   return (
     <div className="w-full md:w-100 bg-black bg-opacity-25 border border-gray p-4">
          <div className="text-sm text-right text-gray-500 sm:text-sm italic">
@@ -17,7 +21,8 @@ const Project = (props) => {
         rel="noopener noreferrer"
       >
         {" "}
-        Link to the project.{" "}
+        {t("ProjectLink")}
+
       </a>
     </div>
   );
