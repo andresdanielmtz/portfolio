@@ -23,7 +23,7 @@ export default function Projects() {
               <Project
                 title={t("Project_MedicalLab")}
                 date="June 2023 - July 2023"
-                url="https://github.com/andresdanielmtz/TC1030"
+                url="https://github.com/andresdanielmtz/laboratorios-Obregon"
               >
                 <ul className="ps-10 list-disc">
                   <li> {t("Project_MedicalLab_First")}</li>
@@ -34,7 +34,7 @@ export default function Projects() {
               <Project
                 title={t("ProjectTop_Title")}
                 date="April 2023 - June 2023"
-                url="https://github.com/andresdanielmtz/Projectile-Kinematic-Simulation-Engine.git"
+                url="https://github.com/andresdanielmtz/TC1030"
               >
                 <ul className="ps-10 list-disc">
                   <li> {t("ProjectTop_First")}</li>
@@ -46,7 +46,7 @@ export default function Projects() {
               <Project
                 title={t("Project_DataAnalysis")}
                 date="March 2023 - April 2023"
-                url=""
+                url="https://github.com/andresdanielmtz/virus-analysis-toolkit"
               >
                 <ul className="ps-10 list-disc">
                   <li> {t("Project_DataAnalysis_First")}</li>
@@ -58,7 +58,7 @@ export default function Projects() {
               <Project
                 title={t("Project_SpaceApp")}
                 date="January 2023 - March 2023"
-                url="">
+                url="https://github.com/andresdanielmtz/The-Webb-Interactive-Project-">
                 <ul className="ps-10 list-disc">
                   <li> {t("Project_SpaceApp_First")}</li>
                   <li> {t("Project_SpaceApp_Second")}</li>
