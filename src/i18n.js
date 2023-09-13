@@ -30,14 +30,14 @@ const resources = {
       Project_MedicalLab_Third: "Served as a way of learning about APIs, Vite, and overall Fullstack development.",
 
       Project_DataAnalysis: "Data Analysis Toolkit", 
-      Project_DataAnalysis_First: "Collaborated in pairs, to develop a series of tools that can help analyse and identify different types of virus genome based on their DNA",
-      Project_DataAnalysis_Second: "This toolkit was completely developed in the R Language and R Studio environment",
+      Project_DataAnalysis_First: "Collaborated in pairs, to develop a series of tools that can help analyse and identify different types of virus genome based on their DNA.",
+      Project_DataAnalysis_Second: "This toolkit was completely developed in the R Language and R Studio environment.",
       Project_DataAnalysis_Third: "Served as an introduction of Biology in the Computer Science field and how these two interact with each other.",
 
       Project_SpaceApp: "The Webb Interactive Project",
       Project_SpaceApp_First: "Collaborated with a team to create a videogame and a quiz website that showed the capabilities of the James Webb Space Telescope.",
       Project_SpaceApp_Second: "Used as an entrance to the NASA Space App Challenge in-campus competition.",
-      Project_SpaceApp_Third: "Served as an introduction to Hackathon events as well as practice for communication of technical terms. It was developed in Pygame using Python 3.8",
+      Project_SpaceApp_Third: "Served as an introduction to Hackathon events as well as practice for communication of technical terms. It was developed in Pygame using Python 3.8.",
 
 
     },
@@ -65,19 +65,19 @@ const resources = {
       ProjectTop_Second: "La aplicación está desarrollada en C++, se usó Typescript y NodeJS para propósitos de testing y desarrollo.", 
       ProjectTop_Third: "La aplicación fue subida a Github como un repositorio público y de código abierto, así como se colaboró en el utilizando Git.",
       Project_MedicalLab: "Sitio Web de Laboratorio Médico",
-      Project_MedicalLab_First: "Desarrollé un sitio web para Laboratorios Obregón, una empresa de laboratorios médicos en Cananea, Sonora. Enfocado en investigaciones y salud pública",
+      Project_MedicalLab_First: "Desarrollé un sitio web para Laboratorios Obregón, una empresa de laboratorios médicos en Cananea, Sonora. Enfocado en investigaciones y salud pública.",
       Project_MedicalLab_Second: "El sitio web muestra la localidad de los laboratorios, así como los servicios que ofrecen y los precios de los mismos.",
-      Project_MedicalLab_Third: "Sirvió como una manera de aprender acerca de APIs, Vite y en general Desarrollo Fullstack",
+      Project_MedicalLab_Third: "Sirvió como una manera de aprender acerca de APIs, Vite y en general Desarrollo Fullstack.",
 
       Project_DataAnalysis: "Herramienta de Análisis de Datos",
-      Project_DataAnalysis_First: "Colaboré en parejas, para desarrollar una serie de herramientas que pueden ayudar a analizar e identificar diferentes tipos de genomas de virus basados en su ADN",
-      Project_DataAnalysis_Second: "Esta herramienta fue completamente desarrollada en el lenguaje R y en el entorno de R Studio",
+      Project_DataAnalysis_First: "Colaboré en parejas, para desarrollar una serie de herramientas que pueden ayudar a analizar e identificar diferentes tipos de genomas de virus basados en su ADN.",
+      Project_DataAnalysis_Second: "Esta herramienta fue completamente desarrollada en el lenguaje R y en el entorno de R Studio.",
       Project_DataAnalysis_Third: "Sirvió como una introducción de Biología en el campo de la Ciencia de la Computación y cómo estos dos interactúan entre sí.",
 
       Project_SpaceApp: "El Proyecto Interactivo Webb",
       Project_SpaceApp_First: "Colaboré con un equipo para crear un videojuego y un sitio web de preguntas que mostraba las capacidades del Telescopio Espacial James Webb.",
       Project_SpaceApp_Second: "Utilizado como una entrada a la competencia de la NASA Space App Challenge en el campus.",
-      Project_SpaceApp_Third: "Sirvió como una introducción a los eventos de Hackathon, así como una práctica para la comunicación de términos técnicos. Fue desarrollado en Pygame usando Python 3.8",
+      Project_SpaceApp_Third: "Sirvió como una introducción a los eventos de Hackathon, así como una práctica para la comunicación de términos técnicos. Fue desarrollado en Pygame usando Python 3.8.",
     },
   },
 };
