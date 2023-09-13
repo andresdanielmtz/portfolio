@@ -40,7 +40,7 @@ export default function Navbar() {
                 />
               </svg>
             </button>
-            <div className = "pr-2">
+            <div className = "pr-2 pl-3">
               <ToggleLanguage></ToggleLanguage>
             </div>
           </div>
