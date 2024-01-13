@@ -1,20 +1,28 @@
-export default function Icons () {
-    return ( 
-        <div className="flex justify-center mt-6 space-x-6">
-            
-            <a
-              href="https://www.linkedin.com/in/andresdanielmtz/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 transition duration-300 hover:text-gray-500"
-              >
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-          <svg className = "h-7" viewBox="0 0 128 128">
-            <path fill="#0076b2" d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3z"></path><path fill="#fff" d="M21.06 48.73h18.11V107H21.06zm9.06-29a10.5 10.5 0 11-10.5 10.49 10.5 10.5 0 0110.5-10.49M50.53 48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75v32H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53z"></path>
-            </svg>
-          </a>
+export default function Icons() {
+  return (
+    <div className="flex items-center justify-center mt-3">
+      {/* GitHub icon */}
+      <a
+        href="https://github.com/andresdanielmtz"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white mx-2"
+      >
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+      </a>
 
-
-          </div>
-    );
+      {/* LinkedIn icon */}
+      <a
+        href="https://www.linkedin.com/in/andresdanielmtz/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-500 dark:text-blue-300 hover:text-blue-700 dark:hover:text-blue-200 mx-2"
+      >
+        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+      </a>
+    </div>
+  );
 }

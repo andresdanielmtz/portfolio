@@ -21,14 +21,34 @@ export default function Projects() {
 
             <div className="flex flex-col space-y-4">
               <Project
-                title={t("Project_MedicalLab")}
-                date="June 2023 - July 2023"
-                url="https://github.com/andresdanielmtz/laboratorios-Obregon"
+                title={t("Project_Seatrack")}
+                date="January 2021 - May 2021"
+                url=""
               >
                 <ul className="ps-10 list-disc">
-                  <li> {t("Project_MedicalLab_First")}</li>
-                  <li> {t("Project_MedicalLab_Second")}</li>
-                  <li> {t("Project_MedicalLab_Third")}</li>
+                  <li> {t("Project_Seatrack_First")}</li>
+                  <li> {t("Project_Seatrack_Second")}</li>
+                  <li> {t("Project_Seatrack_Third")}</li>
+                </ul>
+              </Project>
+
+              <Project title={t("Project_BazApp")} date="October 2023" url="">
+                <ul className="ps-10 list-disc">
+                  <li> {t("Project_BazApp_First")}</li>
+                  <li> {t("Project_BazApp_Second")}</li>
+                  <li> {t("Project_BazApp_Third")}</li>
+                </ul>
+              </Project>
+
+              <Project
+                title={t("Project_SpaceSymphony")}
+                date="January 2021 - May 2021"
+                url=""
+              >
+                <ul className="ps-10 list-disc">
+                  <li> {t("Project_SpaceSymphony_First")}</li>
+                  <li> {t("Project_SpaceSymphony_Second")}</li>
+                  <li> {t("Project_SpaceSymphony_Third")}</li>
                 </ul>
               </Project>
               <Project
@@ -42,34 +62,11 @@ export default function Projects() {
                   <li> {t("ProjectTop_Third")}</li>
                 </ul>
               </Project>
-
-              <Project
-                title={t("Project_DataAnalysis")}
-                date="March 2023 - April 2023"
-                url="https://github.com/andresdanielmtz/virus-analysis-toolkit"
-              >
-                <ul className="ps-10 list-disc">
-                  <li> {t("Project_DataAnalysis_First")}</li>
-                  <li> {t("Project_DataAnalysis_Second")}</li>
-                  <li> {t("Project_DataAnalysis_Third")}</li>
-                </ul>
-              </Project>
-
-              <Project
-                title={t("Project_SpaceApp")}
-                date="January 2023 - March 2023"
-                url="https://github.com/andresdanielmtz/The-Webb-Interactive-Project-">
-                <ul className="ps-10 list-disc">
-                  <li> {t("Project_SpaceApp_First")}</li>
-                  <li> {t("Project_SpaceApp_Second")}</li>
-                  <li> {t("Project_SpaceApp_Third")}</li>
-                </ul>
-              </Project>
             </div>
             <p className="py-10">
               {t("ProjectFinal")}
               <a target="_blank" href="https://github.com/andresdanielmtz">
-                github
+                Github
               </a>{" "}
               {t("ProjectFinal2")}{" "}
               <a target="_blank" href={Resume}>
