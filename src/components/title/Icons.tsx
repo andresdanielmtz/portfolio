@@ -9,7 +9,7 @@ export default function Icons() {
         href="https://github.com/andresdanielmtz"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white mx-2"
+        className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-blue-200 mx-2"
       >
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
