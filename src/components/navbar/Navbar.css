@@ -1,0 +1,11 @@
+@media (prefers-color-scheme: dark) {
+    #navbar-sticky {
+        background-color: #1a1a1a;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    #navbar-sticky {
+        background-color: hsla(0, 0%, 100%, 0);
+    }
+}
