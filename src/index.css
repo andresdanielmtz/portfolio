@@ -58,7 +58,9 @@
     color: #f6c055;
   }
 
-
+  button:hover {
+    border-color:  #ffe064;
+  }
 }
 
 body {
@@ -83,9 +85,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: rgb(55, 116, 228);
-}
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -110,4 +110,9 @@ button:focus-visible {
     background-color: rgb(55, 116, 228);
     color: #e2e1e1;
   }
+
+  button:hover {
+    border-color: rgb(55, 116, 228);
+  }
+
 }
