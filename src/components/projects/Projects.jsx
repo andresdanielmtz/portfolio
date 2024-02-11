@@ -1,8 +1,10 @@
 // @ts-ignore
-import Project from "./ProjTemplate";
+import Project from "./ProjTemplate.jsx";
 import { useTranslation } from "react-i18next";
 import Resume from "../../assets/resume.pdf";
 import "./Projects.css";
+import LoadingBar from "./ProjectScrollbar.jsx";
+
 export default function Projects() {
   const { t } = useTranslation();
   return (
@@ -10,6 +12,7 @@ export default function Projects() {
       <div className="remove-scrollbar">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
+            <LoadingBar />
             <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">
               {t("Project_Title")}{" "}
             </h2>
@@ -22,7 +25,7 @@ export default function Projects() {
             <div className="flex flex-col space-y-4">
               <Project
                 title={t("Project_Seatrack")}
-                date="January 2021 - May 2021"
+                date="November 2023 - February 2024"
                 url=""
               >
                 <ul className="ps-10 list-disc">
@@ -42,7 +45,7 @@ export default function Projects() {
 
               <Project
                 title={t("Project_SpaceSymphony")}
-                date="January 2021 - May 2021"
+                date="October 2023"
                 url=""
               >
                 <ul className="ps-10 list-disc">

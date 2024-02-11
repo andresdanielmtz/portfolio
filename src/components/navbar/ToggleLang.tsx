@@ -5,7 +5,7 @@ export const ToggleLanguage = () => {
   const { isOn, onText, handleClick } = useToggleState();
 
   useEffect(() => {
-    console.log("Now: " + onText);
+    console.log("Toggle language button now says: " + onText);
   }, [onText]);
 
   return (

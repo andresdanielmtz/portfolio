@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { ToggleLanguage } from "./ToggleLang";
-import "./Navbar.css"
+import "./Navbar.css";
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="bg-black dark:bg-black bg-opacity-100 dark:bg-opacity-100 flex items-center fixed w-full z-20 top-0 left-0">
+      <nav className="bg-black dark:bg-black bg-opacity-100 dark:bg-opacity-100 flex items-center fixed w-full z-20 top-0 left-0 ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           {/* ... */}
           <div className="flex md:order-2">
@@ -40,7 +40,7 @@ export default function Navbar() {
                 />
               </svg>
             </button>
-            <div className = "pr-2 pl-3">
+            <div className="pr-2 pl-3">
               <ToggleLanguage></ToggleLanguage>
             </div>
           </div>
@@ -52,8 +52,8 @@ export default function Navbar() {
             id="navbar-sticky"
           >
             <ul
-            id = "navbar-sticky"
-              className="bg-slate-50 md:order-2 opacity-100 md:bg-opacity-100 md:bg-slate-50 md:bg-slate-50 flex flex-col p-4 md:p-0 mt-4 font-medium bg-opacity-100 dark:bg-opacity-100 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-slate-50 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+              id="navbar-sticky"
+              className="bg-slate-50 md:order-2 opacity-100 md:bg-opacity-100 md:bg-slate-50 md:bg-slate-50 flex flex-col p-4 md:p-0 mt-4 font-medium bg-opacity-100 dark:bg-opacity-100 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-slate-50 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 "
             >
               <li>
                 <Link to="/" onClick={toggleMobileMenu}>
