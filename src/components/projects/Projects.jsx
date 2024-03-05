@@ -26,7 +26,7 @@ export default function Projects() {
               <Project
                 title={t("Project_Seatrack")}
                 date="November 2023 - February 2024"
-                url=""
+                url="https://github.com/andresdanielmtz/seatrack-dev"
               >
                 <ul className="ps-10 list-disc">
                   <li> {t("Project_Seatrack_First")}</li>
@@ -35,7 +35,11 @@ export default function Projects() {
                 </ul>
               </Project>
 
-              <Project title={t("Project_BazApp")} date="October 2023" url="">
+              <Project
+                title={t("Project_BazApp")}
+                date="October 2023"
+                url="https://github.com/andresdanielmtz/BazApp"
+              >
                 <ul className="ps-10 list-disc">
                   <li> {t("Project_BazApp_First")}</li>
                   <li> {t("Project_BazApp_Second")}</li>
@@ -46,7 +50,7 @@ export default function Projects() {
               <Project
                 title={t("Project_SpaceSymphony")}
                 date="October 2023"
-                url=""
+                url="https://github.com/andresdanielmtz/SpaceSymphony"
               >
                 <ul className="ps-10 list-disc">
                   <li> {t("Project_SpaceSymphony_First")}</li>
