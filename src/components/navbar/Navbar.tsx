@@ -70,6 +70,11 @@ export default function Navbar() {
                   Project
                 </Link>
               </li>
+              <li>
+                <Link to="/blog" onClick={toggleMobileMenu}>
+                  Blog
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
