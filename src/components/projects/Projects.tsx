@@ -1,5 +1,4 @@
-// @ts-ignore
-import Project from "./ProjTemplate.jsx";
+import Project from "./ProjTemplate.tsx";
 import { useTranslation } from "react-i18next";
 import Resume from "../../assets/resume.pdf";
 import "./Projects.css";
