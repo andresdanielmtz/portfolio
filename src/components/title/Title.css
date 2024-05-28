@@ -22,3 +22,8 @@
   z-index: 1;
   text-decoration: none;
 }
+
+#gh_av { 
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
