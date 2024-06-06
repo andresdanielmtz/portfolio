@@ -8,23 +8,18 @@ export const useToggleState = () => {
 
   const handleClick = (isOn: boolean) => {
     setOn(!isOn);
-    if (isOn) { 
+    if (isOn) {
       setOnText("English");
       i18n.changeLanguage("es");
-      
-    }
-    else{ 
+    } else {
       setOnText("Español");
       i18n.changeLanguage("en");
     }
-
   };
-
 
   return {
     isOn,
     onText,
     handleClick,
-
   };
 };

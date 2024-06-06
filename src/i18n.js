@@ -5,7 +5,7 @@ const resources = {
   en: {
     translation: {
       About: "About Me",
-      Hello: "Hello! I am Andrés Martínez, a Sophomore CS Student @ ITESM.",
+      Hello: "Hello! I am Andrés Martínez, a Second-Year CS Student @ ITESM.",
       Location:
         "Based in Hermosillo, Sonora, I've been able to learn and develop my skills in various areas such as Web Development, Mobile Development and Systems Engineering. As well as working with different UNIX-based systems like Ubuntu, Mint and Debian, among others.",
       // ... Other translations ...
@@ -13,7 +13,7 @@ const resources = {
         "I am currently open to work and looking for an internship. If you are interested in working with me, please contact me at",
       Email: "this email",
       Title: "Nice to meet you, I am",
-      Grade: "Sophomore CS Student",
+      Grade: "Second-Year CS Student",
       ProjectLink: "Link to the project",
       ProjectFinal: "To see the rest of my projects, visit my ",
       ProjectFinal2: "page or check out my ",

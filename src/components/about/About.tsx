@@ -20,8 +20,7 @@ const About = () => {
           <p className="mb-4 font-medium">
             {t("Currently")}{" "}
             <a
-              href="mailto:autummata@gmail.com
-            "
+              href="mailto:andresdanielmtz@hotmail.com"
               className="text-primary-600 hover:text-primary-800 dark:text-primary-500 dark:hover:text-primary-700"
             >
               {t("Email")}
