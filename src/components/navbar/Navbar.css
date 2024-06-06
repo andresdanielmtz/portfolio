@@ -1,11 +1,11 @@
 @media (prefers-color-scheme: dark) {
-    #navbar-sticky {
-        background-color: #f6393900;
-    }
+  #navbar-sticky {
+    background-color: #f6393900;
+  }
 }
 
 @media (prefers-color-scheme: light) {
-    #navbar-sticky {
-        background-color: hsla(0, 0%, 100%, 0);
-    }
+  #navbar-sticky {
+    background-color: hsla(0, 0%, 100%, 0);
+  }
 }

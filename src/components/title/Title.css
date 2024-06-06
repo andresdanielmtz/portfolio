@@ -8,22 +8,21 @@
   opacity: 0.1;
 }
 
-#title { 
+#title {
   max-height: 100vh;
   max-width: 100vw;
   overflow: hidden;
-  
+
   height: 100vh;
 }
 
-#title-content { 
-
+#title-content {
   font-family: "NeueMontreal", sans-serif;
   z-index: 1;
   text-decoration: none;
 }
 
-#gh_av { 
+#gh_av {
   margin-bottom: 2rem;
   border-radius: 1rem;
 }
