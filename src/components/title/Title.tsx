@@ -12,7 +12,7 @@ interface GithubData {
 export default function Title() {
   const { t } = useTranslation();
   const [githubData, setGithubData] = useState<GithubData | null>(null);
-  const [githubUser, setGithubUser] = useState<string>("andresdanielmtz");
+  const [githubUser, ] = useState<string>("andresdanielmtz");
 
   const fetchData = () => {
     return fetch(`https://api.github.com/users/${githubUser}`)
